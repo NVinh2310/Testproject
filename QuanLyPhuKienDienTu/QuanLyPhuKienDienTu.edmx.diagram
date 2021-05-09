@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9202385dfd9d4db09b49fd1aabdbff97" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.HoaDonBan" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.HoaDonNhap" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.KhachHang" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.Loai" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.NhanVien" Width="1.5" PointX="5.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.SanPham" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.sysdiagram" Width="1.5" PointX="7.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.TaiKhoan" Width="1.5" PointX="8" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.ThuongHieu" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.ChiTietHoaDonBan" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyPhuKienDienTuModel.ChiTietHoaDonNhap" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_ChiTietHoaDonBan_MaHoaDonBan" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_HoaDonBan_MaKhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_ChiTietHoaDonNhap_MaHoaDonNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_HoaDonNhap_MaThuongHieu" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_SanPham_MaLoai" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_TaiKhoan_MaNhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_ChiTietHoaDonBan_MaSanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_ChiTietHoaDonNhap_MaSanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyPhuKienDienTuModel.FK_SanPham_MaThuongHieu" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
